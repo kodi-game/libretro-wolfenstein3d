@@ -17,7 +17,7 @@
 #endif
 
 #include "surface.h"
-#include "SDL.h"
+#include <SDL/SDL.h>
 
 typedef uint64_t retro_perf_tick_t;
 
