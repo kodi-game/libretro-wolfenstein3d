@@ -21,9 +21,7 @@ void Quit (const char *error,...);
 
 //===========================================================================
 
-#ifndef __LIBRETRO__
 extern LR_Surface *screen;
-#endif
 extern LR_Surface *screenBuffer;
 
 extern  boolean  fullscreen;
